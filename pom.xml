@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>../spring-react-fe</module>
-        <module>../spring-react-be</module>
+        <module>spring-react-fe</module>
+        <module>spring-react-be</module>
     </modules>
 
 </project>
