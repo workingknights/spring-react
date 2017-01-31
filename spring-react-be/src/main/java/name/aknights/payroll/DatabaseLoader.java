@@ -22,7 +22,6 @@ import org.springframework.stereotype.Component;
 /**
  * @author Greg Turnquist
  */
-// tag::code[]
 @Component
 public class DatabaseLoader implements CommandLineRunner {
 
@@ -35,14 +34,12 @@ public class DatabaseLoader implements CommandLineRunner {
 
 	@Override
 	public void run(String... strings) throws Exception {
-//
-//		this.employees.save(new Employee("Frodo", "Baggins", "ring bearer"));
-//		this.employees.save(new Employee("Bilbo", "Baggins", "burglar"));
-//		this.employees.save(new Employee("Gandalf", "the Grey", "wizard"));
-//
-//		this.employees.save(new Employee("Samwise", "Gamgee", "gardener"));
-//		this.employees.save(new Employee("Merry", "Brandybuck", "pony rider"));
-//		this.employees.save(new Employee("Peregrin", "Took", "pipe smoker"));
+		this.employees.save(new Employee("Frodo", "Baggins", "ring bearer"));
+		this.employees.save(new Employee("Bilbo", "Baggins", "burglar"));
+		this.employees.save(new Employee("Gandalf", "the Grey", "wizard"));
+
+		this.employees.save(new Employee("Samwise", "Gamgee", "gardener"));
+		this.employees.save(new Employee("Merry", "Brandybuck", "pony rider"));
+		this.employees.save(new Employee("Peregrin", "Took", "pipe smoker"));
 	}
 }
-// end::code[]
